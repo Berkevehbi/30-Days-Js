@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url(https://picsum.photos/1550/750/?blur);
+    display: flex;
+    height: 100vh;
+}
+.clock{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: solid 5px blue;
+    position: absolute;
+}
+#seconds-hand{
+    height: 130px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    right: 149px;
+    bottom: 149px;
+    opacity: 50%;
+    transform-origin: 0% 100%;
+}  
+#minutes-hand{
+    height: 100px;
+    width: 2px;
+    position: absolute;
+    background-color: black;
+    right: 149px;
+    bottom: 149px;
+    transform-origin: 0% 100%;
+}
+#hours-hand{
+    height: 80px;
+    width: 4px;
+    position: absolute;
+    background-color: black;
+    right: 148px;
+    bottom: 148px;
+    transform-origin: 0% 100%;
+}
+#center{
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 135px;
+    bottom: 145px;
+    background-color: blue;
+}
